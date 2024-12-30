@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // simulated correct username and password
+        const correctusername ="admin";
+        const correctpassword ="password123";
+
+         let username, password;
+         let loggedin =false;
+         let attmnt = 0
+
+         do{
+            username = prompt("enter your name");
+            password = prompt("enter your passworld");
+            if (username==correctusername &&password==correctpassword) {
+                loggedin=true
+                alert("your login is successful");
+                
+            }else {
+                alert("invalid login please try aganin ")
+                if(attmnt =3);
+            
+            }
+         } while(!loggedin);
+         
+    </script>
+
+    <h1>
+</body>
+</html>
