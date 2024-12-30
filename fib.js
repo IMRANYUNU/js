@@ -2,7 +2,7 @@
 let first =1;
 let second =1;
 let sum =0;
-
+console.log("Fibonacci Program");
 console.log(first);
 console.log(second);
 
